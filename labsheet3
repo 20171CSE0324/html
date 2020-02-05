@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>HTML table colspan/rowspan</title>
+</head>
+<body>
+<table border="1" align=right>
+<caption><h3>semester CGPA</h3><caption>
+<tr>
+<th>SEMESTER</th>
+<th>CGPA</th>
+<tr>
+<td>1</td>
+<td>8.5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>7.5</td>
+</tr>
+</table>
+<table border="1" align=right>
+<caption><h3>favariote and least favotite things</h3><caption>
+<tr>
+<th></th>
+<th></th>
+<th>Bob</th>
+<th>Tom</th>
+</tr>
+<tr>
+<td rowspan="2">favorite Cuisine</td>
+<td><h4>South Indian</h4></td>
+<td>Masala Dosa</td>
+<td>idly Sambar</td>
+</tr>
+<tr>
+<td><h4>Mexican</h4.</td>
+<td>Buritto</td>
+<td>Tortilla</td>
+</tr>
+<tr>
+<td rowspan="3">Favorite Hobby</td>
+<td><h4>Pottery</h4></td>
+<td>painting</td>
+<td>reading books</td>
+</tr>
+<td><h4>Flavor of iceCream</h4></td>
+<td>mint</td>
+<td>kesar pista</td>
+</tr>
+</table>
+
+</body>
+</html>
+
